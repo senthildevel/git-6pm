@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bootstrap 5 Primary & Secondary Color Combinations</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" /> -->
+
+    <link rel="stylesheet" href="/css/custom_bootstrap.css" />
+  </head>
+  <body class="bg-light">
+    <div class="container py-5">
+      <img src="/images/logo.png" alt="" />
+      <h1 class="text-center mb-5 text-primary">Bootstrap 5 – Primary & Secondary Color Combinations</h1>
+
+      <!-- ================= Background + Text ================= -->
+      <section class="mb-5">
+        <h3 class="mb-3">Background + Text</h3>
+        <div class="p-3 mb-2 bg-primary text-white">Primary Background + White Text</div>
+        <div class="p-3 mb-2 bg-secondary text-white">Secondary Background + White Text</div>
+        <div class="p-3 mb-2 bg-primary text-secondary">Primary Background + Secondary Text</div>
+        <div class="p-3 mb-2 bg-secondary text-primary">Secondary Background + Primary Text</div>
+      </section>
+
+      <!-- ================= Text Colors ================= -->
+      <section class="mb-5">
+        <h3 class="mb-3">Text Colors</h3>
+        <p class="text-primary">This is primary text</p>
+        <p class="text-secondary">This is secondary text</p>
+      </section>
+
+      <!-- ================= Borders ================= -->
+      <section class="mb-5">
+        <h3 class="mb-3">Borders</h3>
+        <div class="p-3 mb-2 border border-primary">Primary Border</div>
+        <div class="p-3 mb-2 border border-secondary">Secondary Border</div>
+        <div class="p-3 mb-2 border border-primary text-primary">Primary Border + Primary Text</div>
+        <div class="p-3 mb-2 border border-secondary text-secondary">Secondary Border + Secondary Text</div>
+      </section>
+
+      <!-- ================= Border + Background + Text ================= -->
+      <section class="mb-5">
+        <h3 class="mb-3">Border + Background + Text Mix</h3>
+        <div class="p-3 mb-2 bg-primary border border-secondary text-white">Primary Background + Secondary Border</div>
+        <div class="p-3 mb-2 bg-secondary border border-primary text-white">Secondary Background + Primary Border</div>
+      </section>
+
+      <!-- ================= Buttons ================= -->
+      <section class="mb-5">
+        <h3 class="mb-3">Buttons</h3>
+        <button class="btn btn-primary me-2">Primary Button</button>
+        <button class="btn btn-secondary me-2">Secondary Button</button>
+        <button class="btn btn-outline-primary me-2">Outline Primary</button>
+        <button class="btn btn-outline-secondary">Outline Secondary</button>
+      </section>
+
+      <!-- ================= Alerts ================= -->
+      <section class="mb-5">
+        <h3 class="mb-3">Alerts</h3>
+        <div class="alert alert-primary">Primary Alert</div>
+        <div class="alert alert-secondary">Secondary Alert</div>
+      </section>
+
+      <!-- ================= Badges ================= -->
+      <section class="mb-5">
+        <h3 class="mb-3">Badges</h3>
+        <span class="badge bg-primary me-2">Primary Badge</span>
+        <span class="badge bg-secondary me-2">Secondary Badge</span>
+        <span class="badge bg-primary text-secondary">Primary BG + Secondary Text</span>
+      </section>
+
+      <!-- ================= Cards ================= -->
+      <section class="mb-5">
+        <h3 class="mb-3">Cards</h3>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <div class="card border-primary">
+              <div class="card-header bg-primary text-white">Primary Card</div>
+              <div class="card-body">
+                <p class="card-text text-primary">Primary border + header background</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card border-secondary">
+              <div class="card-header bg-secondary text-white">Secondary Card</div>
+              <div class="card-body">
+                <p class="card-text text-secondary">Secondary border + header background</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= Tables ================= -->
+      <section class="mb-5">
+        <h3 class="mb-3">Tables</h3>
+        <table class="table table-bordered">
+          <thead class="table-primary">
+            <tr>
+              <th>Primary Header</th>
+              <th>Primary Header</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-secondary">
+              <td>Secondary Row</td>
+              <td>Secondary Row</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- ================= Utilities ================= -->
+      <section class="mb-5">
+        <h3 class="mb-3">Utility Combinations</h3>
+        <div class="p-3 mb-2 bg-primary bg-opacity-75 text-white">Primary background with opacity</div>
+        <div class="p-3 mb-2 border-start border-5 border-primary">Left Primary Border</div>
+        <div class="p-3 mb-2 border-start border-5 border-secondary">Left Secondary Border</div>
+      </section>
+
+      <footer class="text-center pt-4 border-top">
+        <p class="text-secondary mb-0">Bootstrap 5 Color Utility Demo – Primary & Secondary</p>
+      </footer>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
